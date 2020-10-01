@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    outline: none;
+    font-family: 'Sansita Swashed', cursive;
+}
+body{
+    background-color: black;
+}
+main{
+    height: 100vh;
+    background-image: url("assets/pexels-photo-1563356.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    max-width: 1000px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.profile{
+    margin: auto;
+    width: auto;
+}
+.profile-item:not(:last-child){
+    margin-bottom: 25px;
+}
+.profile-image{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.profile-about{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+.profile-name{
+    font-size: 26px;
+    font-weight: 500;
+}
